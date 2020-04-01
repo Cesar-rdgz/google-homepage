@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 10px 7px;
+    font-family: arial;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+main .container .imagen{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+main .container .search-box{
+    height: 50px;
+}
+
+main .container .search-box input{
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: -100px;
+}
+
+main .container .search-box i {
+    position: relative;
+    top: 10px;
+    left: -90px;
+}
+
+main .container .action-buttons{
+    margin: 10px 0;
+}
+
+main .container .action-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .container button{
+    margin: 0 15px;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 30px;
+    background-color: #ccc;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav .section-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer nav .section-1 a{
+    display: block;
+    text-decoration: none;
+    margin: 10px 7px;
+    color: #1e1e1e;
+}
+
+footer nav .section-1 a:hover{
+    text-decoration: underline;
+}
+
+footer nav .section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer nav .section-2 a{
+    display: block;
+    text-decoration: none;
+    margin: 10px 7px;
+    color: black;
+}
+
+footer nav .section-2 a:hover{
+    text-decoration: underline;
+}
