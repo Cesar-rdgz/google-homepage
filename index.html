@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
+    <title>Google Search Results Page</title>
 
     <!-- css Styles -->
     <link rel="stylesheet" href="css/style.css">
@@ -15,56 +15,86 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-
     <header>
-        <nav>
-            <ul>
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Images</a></li>
-                <li><i class="material-icons">grid_on</i></li>
-                <li><button>Sign In</button></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <div class="container">
+        <div class="container-input">
             <div class="imagen">
                 <img src="img/googlelogo.png" alt="Logo">
             </div>
-            <div class="search-box">
-                <label for="search">
-                    <input id="search" type="text"><i class="fas fa-search"></i>
-                </label>
+            <div class="search-field">
+                <input class="material-icons" type="text" placeholder="search">
+                <div class="container-links">
+                    <ul>
+                        <li><a href="#">Todos</a></li>
+                        <li><a href="#">Maps</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Imagenes</a></li>
+                        <li><a href="#">Mas</a></li>
+                        <li><a href="#">Preferencias</a></li>
+                        <li><a href="#">Herramientas</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="action-buttons">
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
+            <div class="drive">
+                <i class="material-icons">grid_on</i>
+                <img src="img/user-icon.png" alt="user icon">
             </div>
         </div>
+        <hr style="height: 1px;color: #fff">
+        <p>Cerca de 126,000,000 resultados (0.69 segundos)</p>
+    </header>
+
+    <main class="main-results">
+
+        <div class="first-result">
+            <p>TO CREATE A WEBSITE WITH WORDPRESS (OR JOOMLA & DRUPAL), USE ONE CLICK INSTALLATION: Log in to your hosting account. Go to your control panel. Look for the “WordPress” or “Website” icon. Choose the domain where you want to install your website.</p><br/><br/>
+            <p>victor-lf.github.io › google-search-results</p>
+            <a href=""><h1>build this webpage - GitHub Pages</h1></a>
+        </div>
+
+        <div class="others">
+            <p>
+                christine-27.github.io › google-homepage<br>
+                <a href="#"><h1>build this webpage - GitHub Pages</h1></a><br/>
+                TO CREATE A WEBSITE WITH WORDPRESS (OR JOOMLA & DRUPAL), USE ONE CLICK INSTALLATION: Log in to your hosting account. Go to your control panel. Look for the “WordPress” or “Website” icon. Choose the domain where you want to install your website.
+
+            </p>
+        </div>
+
+        <div class="first-result video">
+            <div class="video-result">
+                <div class="video-image"></div>
+                <a href="#"><h2>How to Make a
+                    Website in 10 mins -
+                    Simple & Easy</h2></a>
+                <p></p>
+            </div>
+            <div class="video-result">
+                <div class="video-image"></div>
+                <a href="#"><h2>How To Build A
+                    Website From
+                    Scratch [IN 20
+                    MINS]</h2></a>
+                <p></p>
+            </div>
+            <div class="video-result">
+                <div class="video-image"></div>
+                <a href="#"><h2>Welcome to the
+                    web! (video)</h2></a>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="others">
+            <p>
+                www.websitebuilderexpert.com › building-websites<br>
+                <a href="#"><h1>How to Build a Website: the Step-by-Step Guide to Easy Setup ...</h1></a><br/>
+                18 mar. 2020 - Not sure how to build a website? It actually is not that hard. You don't have to be technical at all. With our handy guide, you can get started ...
+
+            </p>
+        </div>
+
     </main>
-
-    <footer>
-        <nav>
-
-            <div>
-                <ul class="section-1">
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">How Search Works</a></li>
-                </ul>
-            </div>
-
-            <div>
-                <ul class="section-2">
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Settings</a></li>
-                </ul>
-            </div>
-
-        </nav>
-    </footer>
-    
 </body>
 </html>

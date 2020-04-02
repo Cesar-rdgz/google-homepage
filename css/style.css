@@ -31,7 +31,7 @@ header nav ul li a:hover{
     text-decoration: underline;
 }
 
-main{
+.main-homepage main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,3 +129,125 @@ footer nav .section-2 a{
 footer nav .section-2 a:hover{
     text-decoration: underline;
 }
+
+
+
+/* --- search results page --- */
+
+header .container-input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+}
+
+header .container-input .imagen {
+    width: 150px;
+    padding-bottom: 40px;
+}
+
+header .container-input .imagen img{
+    width: 95px;
+}
+
+header .container-input .search-field{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    margin-left: -300px;
+}
+
+header .container-input .search-field input{
+    width: 650px;
+    /*margin-left: -230px;*/
+    height: 35px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+header .container-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header .container-links ul a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px 0px 0px;
+    color: black;
+}
+
+header .container-input .drive img{
+    width: 30px;
+}
+
+header .container-input .drive{
+    padding-bottom: 40px;
+}
+
+header p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e1e1e;
+    margin-left: 210px;
+}
+
+/* --- main --- */
+
+.main-results .first-result{
+    width: 652px;
+    margin-left: 17%;
+    margin-top: 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.main-results .first-result h1{
+    font-size: 20px;
+}
+
+
+.main-results .others{
+    width: 652px;
+    margin-left: 17%;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+.main-results .others h1{
+    font-size: 20px;
+}
+
+.main-results .first-result.video{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+}
+
+.main-results .video-result{
+    width: 212px;
+    height: 301px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.main-results .first-result .video-result > .video-image{
+    width: 205px;
+    height: 115px;
+    border: 1px solid orange;
+}
+
+.main-results .first-result .video-result h2{
+    font-size: 16px;
+    width:178px;
+    padding-right: 15px;
+}
+
+
+
+/* --- main --- */
+/* --- search results page --- */
